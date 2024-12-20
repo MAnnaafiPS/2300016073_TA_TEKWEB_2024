@@ -1,0 +1,13 @@
+/* Navbar.module.css */
+.navbar {
+    @apply bg-gray-800 text-white px-6 py-4 shadow-md;
+  }
+  
+  .navList {
+    @apply flex gap-6;
+  }
+  
+  .navItem {
+    @apply text-white text-lg font-medium hover:underline;
+  }
+  
