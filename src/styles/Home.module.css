@@ -1,29 +1,28 @@
 /* Home.module.css */
 .container {
-    @apply text-center py-10;
-  }
-  
-  .title {
-    @apply text-4xl font-bold text-gray-800 mb-6;
-  }
-  
-  .description {
-    @apply text-lg text-gray-600 mb-8;
-  }
-  
-  .buttonGroup {
-    @apply flex justify-center gap-4;
-  }
-  
-  .button {
-    @apply px-6 py-3 rounded-lg shadow transition;
-  }
-  
-  .buttonBlue {
-    @apply bg-blue-500 text-white hover:bg-blue-600;
-  }
-  
-  .buttonGreen {
-    @apply bg-green-500 text-white hover:bg-green-600;
-  }
-  
+  @apply text-center py-10;
+}
+
+.title {
+  @apply text-4xl font-bold text-gray-800 mb-6;
+}
+
+.description {
+  @apply text-lg text-gray-600 mb-8;
+}
+
+.buttonGroup {
+  @apply flex justify-center gap-4;
+}
+
+.button {
+  @apply px-6 py-3 rounded-lg shadow transition;
+}
+
+.buttonBlue {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.buttonGreen {
+  @apply bg-green-500 text-white hover:bg-green-600;
+}

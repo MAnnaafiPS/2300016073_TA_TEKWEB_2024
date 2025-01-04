@@ -1,34 +1,59 @@
-import React, { useState, useEffect } from 'react';
-import styles from '../styles/Members.module.css';
+import React, { useState, useEffect } from "react";
+import styles from "../styles/Members.module.css";
 
 const Members = () => {
-  const [members, setMembers] = useState([]);
-  const [newMember, setNewMember] = useState("");
+  const [members, setMembers] = useState([]); // State untuk daftar anggota
+  const [newMember, setNewMember] = useState(""); // State untuk input anggota baru
 
+  // Load members dari members.json dan localStorage
   useEffect(() => {
-    const savedMembers = JSON.parse(localStorage.getItem("members")) || [];
-    setMembers(savedMembers);
+    const loadMembers = async () => {
+      try {
+        // Ambil data dari localStorage
+        const savedMembers = JSON.parse(localStorage.getItem("members")) || [];
+
+        // Ambil data dari members.json
+        const response = await fetch("/data/members.json");
+        const jsonMembers = await response.json();
+
+        // Gabungkan data dan hilangkan duplikat
+        const mergedMembers = [...savedMembers, ...jsonMembers].filter(
+          (member, index, self) =>
+            index === self.findIndex((m) => m.id === member.id)
+        );
+
+        setMembers(mergedMembers);
+        localStorage.setItem("members", JSON.stringify(mergedMembers)); // Simpan data yang digabung ke localStorage
+      } catch (error) {
+        console.error("Error loading members:", error);
+      }
+    };
+
+    loadMembers();
   }, []);
 
+  // Fungsi untuk menambahkan anggota baru
   const addMember = () => {
     if (newMember.trim()) {
-      const updatedMembers = [...members, newMember.trim()];
+      const newMemberData = { id: Date.now(), name: newMember.trim() };
+      const updatedMembers = [...members, newMemberData];
       setMembers(updatedMembers);
       localStorage.setItem("members", JSON.stringify(updatedMembers));
       setNewMember("");
     }
   };
 
-  const removeMember = (index) => {
-    const updatedMembers = members.filter((_, i) => i !== index);
+  // Fungsi untuk menghapus anggota
+  const removeMember = (id) => {
+    const updatedMembers = members.filter((member) => member.id !== id);
     setMembers(updatedMembers);
     localStorage.setItem("members", JSON.stringify(updatedMembers));
   };
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Kelola Anggota Asrama</h2>
-      <div className="flex gap-2 mb-4">
+      <h2 className={styles.title}>Kelola Anggota</h2>
+      <div className={styles.inputGroup}>
         <input
           type="text"
           value={newMember}
@@ -36,15 +61,17 @@ const Members = () => {
           placeholder="Nama anggota baru"
           className={styles.input}
         />
-        <button onClick={addMember} className={styles.addButton}>Tambah</button>
+        <button onClick={addMember} className={styles.addButton}>
+          Tambah
+        </button>
       </div>
       <ul className={styles.memberList}>
-        {members.map((member, index) => (
-          <li key={index} className={styles.memberItem}>
-            <span>{member}</span>
+        {members.map((member) => (
+          <li key={member.id} className={styles.memberItem}>
+            <span>{member.name}</span>
             <button
-              onClick={() => removeMember(index)}
-              className={styles.removeButton}
+              onClick={() => removeMember(member.id)}
+              className={styles.deleteButton}
             >
               Hapus
             </button>
