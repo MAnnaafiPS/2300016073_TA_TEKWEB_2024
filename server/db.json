@@ -1,0 +1,1573 @@
+{
+  "members": [
+    {
+      "name": "Andi",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Budi"
+    },
+    {
+      "id": "0051",
+      "name": "Rangga"
+    },
+    {
+      "id": "07a8",
+      "name": "Santo"
+    },
+    {
+      "id": "6ba5",
+      "name": "Reno"
+    },
+    {
+      "name": "Setno",
+      "id": "b900"
+    },
+    {
+      "id": "8bd0",
+      "name": "Zaki"
+    },
+    {
+      "id": "e95c",
+      "name": "Setya"
+    },
+    {
+      "id": "d14a",
+      "name": "Risky"
+    },
+    {
+      "id": "d526",
+      "name": "Agung"
+    },
+    {
+      "id": "5bcc",
+      "name": "Sanad"
+    },
+    {
+      "id": "707b",
+      "name": "Ridho"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "d199",
+      "day": 1,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Andi"
+        },
+        {
+          "floor": "1B",
+          "member": "Budi"
+        },
+        {
+          "floor": "2",
+          "member": "Rangga"
+        },
+        {
+          "floor": "3",
+          "member": "Santo"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "3b56",
+      "day": 2,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Budi"
+        },
+        {
+          "floor": "1B",
+          "member": "Rangga"
+        },
+        {
+          "floor": "2",
+          "member": "Santo"
+        },
+        {
+          "floor": "3",
+          "member": "Reno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "fd85",
+      "day": 3,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Rangga"
+        },
+        {
+          "floor": "1B",
+          "member": "Santo"
+        },
+        {
+          "floor": "2",
+          "member": "Reno"
+        },
+        {
+          "floor": "3",
+          "member": "Setno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "8c15",
+      "day": 4,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Santo"
+        },
+        {
+          "floor": "1B",
+          "member": "Reno"
+        },
+        {
+          "floor": "2",
+          "member": "Setno"
+        },
+        {
+          "floor": "3",
+          "member": "Zaki"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "1ede",
+      "day": 5,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Reno"
+        },
+        {
+          "floor": "1B",
+          "member": "Setno"
+        },
+        {
+          "floor": "2",
+          "member": "Zaki"
+        },
+        {
+          "floor": "3",
+          "member": "Setya"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "4871",
+      "day": 6,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Setno"
+        },
+        {
+          "floor": "1B",
+          "member": "Zaki"
+        },
+        {
+          "floor": "2",
+          "member": "Setya"
+        },
+        {
+          "floor": "3",
+          "member": "Risky"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "ce1b",
+      "day": 7,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Zaki"
+        },
+        {
+          "floor": "1B",
+          "member": "Setya"
+        },
+        {
+          "floor": "2",
+          "member": "Risky"
+        },
+        {
+          "floor": "3",
+          "member": "Agung"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "273c",
+      "day": 8,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Setya"
+        },
+        {
+          "floor": "1B",
+          "member": "Risky"
+        },
+        {
+          "floor": "2",
+          "member": "Agung"
+        },
+        {
+          "floor": "3",
+          "member": "Sanad"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "ed4a",
+      "day": 9,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Risky"
+        },
+        {
+          "floor": "1B",
+          "member": "Agung"
+        },
+        {
+          "floor": "2",
+          "member": "Sanad"
+        },
+        {
+          "floor": "3",
+          "member": "Ridho"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "1179",
+      "day": 10,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Agung"
+        },
+        {
+          "floor": "1B",
+          "member": "Sanad"
+        },
+        {
+          "floor": "2",
+          "member": "Ridho"
+        },
+        {
+          "floor": "3",
+          "member": "Andi"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "a248",
+      "day": 11,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Sanad"
+        },
+        {
+          "floor": "1B",
+          "member": "Ridho"
+        },
+        {
+          "floor": "2",
+          "member": "Andi"
+        },
+        {
+          "floor": "3",
+          "member": "Budi"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "2b43",
+      "day": 12,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Ridho"
+        },
+        {
+          "floor": "1B",
+          "member": "Andi"
+        },
+        {
+          "floor": "2",
+          "member": "Budi"
+        },
+        {
+          "floor": "3",
+          "member": "Rangga"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "3d6b",
+      "day": 13,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Andi"
+        },
+        {
+          "floor": "1B",
+          "member": "Budi"
+        },
+        {
+          "floor": "2",
+          "member": "Rangga"
+        },
+        {
+          "floor": "3",
+          "member": "Santo"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "a80f",
+      "day": 14,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Budi"
+        },
+        {
+          "floor": "1B",
+          "member": "Rangga"
+        },
+        {
+          "floor": "2",
+          "member": "Santo"
+        },
+        {
+          "floor": "3",
+          "member": "Reno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "9214",
+      "day": 15,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Rangga"
+        },
+        {
+          "floor": "1B",
+          "member": "Santo"
+        },
+        {
+          "floor": "2",
+          "member": "Reno"
+        },
+        {
+          "floor": "3",
+          "member": "Setno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "c7ce",
+      "day": 16,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Santo"
+        },
+        {
+          "floor": "1B",
+          "member": "Reno"
+        },
+        {
+          "floor": "2",
+          "member": "Setno"
+        },
+        {
+          "floor": "3",
+          "member": "Zaki"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "ad9a",
+      "day": 17,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Reno"
+        },
+        {
+          "floor": "1B",
+          "member": "Setno"
+        },
+        {
+          "floor": "2",
+          "member": "Zaki"
+        },
+        {
+          "floor": "3",
+          "member": "Setya"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "af82",
+      "day": 18,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Setno"
+        },
+        {
+          "floor": "1B",
+          "member": "Zaki"
+        },
+        {
+          "floor": "2",
+          "member": "Setya"
+        },
+        {
+          "floor": "3",
+          "member": "Risky"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "baad",
+      "day": 19,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Zaki"
+        },
+        {
+          "floor": "1B",
+          "member": "Setya"
+        },
+        {
+          "floor": "2",
+          "member": "Risky"
+        },
+        {
+          "floor": "3",
+          "member": "Agung"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "6099",
+      "day": 20,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Setya"
+        },
+        {
+          "floor": "1B",
+          "member": "Risky"
+        },
+        {
+          "floor": "2",
+          "member": "Agung"
+        },
+        {
+          "floor": "3",
+          "member": "Sanad"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "d4ff",
+      "day": 21,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Risky"
+        },
+        {
+          "floor": "1B",
+          "member": "Agung"
+        },
+        {
+          "floor": "2",
+          "member": "Sanad"
+        },
+        {
+          "floor": "3",
+          "member": "Ridho"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "a31e",
+      "day": 22,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Agung"
+        },
+        {
+          "floor": "1B",
+          "member": "Sanad"
+        },
+        {
+          "floor": "2",
+          "member": "Ridho"
+        },
+        {
+          "floor": "3",
+          "member": "Andi"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "8345",
+      "day": 23,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Sanad"
+        },
+        {
+          "floor": "1B",
+          "member": "Ridho"
+        },
+        {
+          "floor": "2",
+          "member": "Andi"
+        },
+        {
+          "floor": "3",
+          "member": "Budi"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "5d52",
+      "day": 24,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Ridho"
+        },
+        {
+          "floor": "1B",
+          "member": "Andi"
+        },
+        {
+          "floor": "2",
+          "member": "Budi"
+        },
+        {
+          "floor": "3",
+          "member": "Rangga"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "8d9a",
+      "day": 25,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Andi"
+        },
+        {
+          "floor": "1B",
+          "member": "Budi"
+        },
+        {
+          "floor": "2",
+          "member": "Rangga"
+        },
+        {
+          "floor": "3",
+          "member": "Santo"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "c17f",
+      "day": 26,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Budi"
+        },
+        {
+          "floor": "1B",
+          "member": "Rangga"
+        },
+        {
+          "floor": "2",
+          "member": "Santo"
+        },
+        {
+          "floor": "3",
+          "member": "Reno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "c54c",
+      "day": 27,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Rangga"
+        },
+        {
+          "floor": "1B",
+          "member": "Santo"
+        },
+        {
+          "floor": "2",
+          "member": "Reno"
+        },
+        {
+          "floor": "3",
+          "member": "Setno"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "3b02",
+      "day": 28,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Santo"
+        },
+        {
+          "floor": "1B",
+          "member": "Reno"
+        },
+        {
+          "floor": "2",
+          "member": "Setno"
+        },
+        {
+          "floor": "3",
+          "member": "Zaki"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "cc65",
+      "day": 29,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Reno"
+        },
+        {
+          "floor": "1B",
+          "member": "Setno"
+        },
+        {
+          "floor": "2",
+          "member": "Zaki"
+        },
+        {
+          "floor": "3",
+          "member": "Setya"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    },
+    {
+      "id": "cdbd",
+      "day": 30,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Setno"
+        },
+        {
+          "floor": "1B",
+          "member": "Zaki"
+        },
+        {
+          "floor": "2",
+          "member": "Setya"
+        },
+        {
+          "floor": "3",
+          "member": "Risky"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Zaki"
+        },
+        {
+          "wc": "1B",
+          "member": "Setya"
+        },
+        {
+          "wc": "2A",
+          "member": "Risky"
+        },
+        {
+          "wc": "2B",
+          "member": "Agung"
+        },
+        {
+          "wc": "3A",
+          "member": "Sanad"
+        },
+        {
+          "wc": "3B",
+          "member": "Ridho"
+        }
+      ]
+    },
+    {
+      "id": "186d",
+      "day": 31,
+      "month": "Januari",
+      "floors": [
+        {
+          "floor": "1A",
+          "member": "Zaki"
+        },
+        {
+          "floor": "1B",
+          "member": "Setya"
+        },
+        {
+          "floor": "2",
+          "member": "Risky"
+        },
+        {
+          "floor": "3",
+          "member": "Agung"
+        }
+      ],
+      "wc": [
+        {
+          "wc": "1A",
+          "member": "Andi"
+        },
+        {
+          "wc": "1B",
+          "member": "Budi"
+        },
+        {
+          "wc": "2A",
+          "member": "Rangga"
+        },
+        {
+          "wc": "2B",
+          "member": "Santo"
+        },
+        {
+          "wc": "3A",
+          "member": "Reno"
+        },
+        {
+          "wc": "3B",
+          "member": "Setno"
+        }
+      ]
+    }
+  ]
+}

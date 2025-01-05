@@ -1,77 +1,71 @@
 import React, { useState, useEffect } from "react";
-import styles from "../styles/Members.module.css";
 
 const Members = () => {
-  const [members, setMembers] = useState([]); // State untuk daftar anggota
-  const [newMember, setNewMember] = useState(""); // State untuk input anggota baru
+  const [members, setMembers] = useState([]);
+  const [newMember, setNewMember] = useState("");
 
-  // Load members dari members.json dan localStorage
+  // Fetch data anggota dari server
   useEffect(() => {
     const loadMembers = async () => {
       try {
-        // Ambil data dari localStorage
-        const savedMembers = JSON.parse(localStorage.getItem("members")) || [];
-
-        // Ambil data dari members.json
-        const response = await fetch("/data/members.json");
-        const jsonMembers = await response.json();
-
-        // Gabungkan data dan hilangkan duplikat
-        const mergedMembers = [...savedMembers, ...jsonMembers].filter(
-          (member, index, self) =>
-            index === self.findIndex((m) => m.id === member.id)
-        );
-
-        setMembers(mergedMembers);
-        localStorage.setItem("members", JSON.stringify(mergedMembers)); // Simpan data yang digabung ke localStorage
+        const response = await fetch("http://localhost:5000/members");
+        const data = await response.json();
+        setMembers(data);
       } catch (error) {
-        console.error("Error loading members:", error);
+        console.error(error.message);
       }
     };
-
     loadMembers();
   }, []);
 
-  // Fungsi untuk menambahkan anggota baru
-  const addMember = () => {
+  // Tambah anggota baru
+  const addMember = async () => {
     if (newMember.trim()) {
-      const newMemberData = { id: Date.now(), name: newMember.trim() };
-      const updatedMembers = [...members, newMemberData];
-      setMembers(updatedMembers);
-      localStorage.setItem("members", JSON.stringify(updatedMembers));
+      const response = await fetch("http://localhost:5000/members", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: newMember }),
+      });
+      const data = await response.json();
+      setMembers([...members, data]);
       setNewMember("");
     }
   };
 
-  // Fungsi untuk menghapus anggota
-  const removeMember = (id) => {
-    const updatedMembers = members.filter((member) => member.id !== id);
-    setMembers(updatedMembers);
-    localStorage.setItem("members", JSON.stringify(updatedMembers));
+  // Hapus anggota
+  const removeMember = async (id) => {
+    await fetch(`http://localhost:5000/members/${id}`, { method: "DELETE" });
+    setMembers(members.filter((member) => member.id !== id));
   };
 
   return (
-    <div className={styles.container}>
-      <h2 className={styles.title}>Kelola Anggota</h2>
-      <div className={styles.inputGroup}>
+    <div className="px-4 py-6">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">Kelola Anggota</h2>
+      <div className="flex gap-2 mb-6">
         <input
           type="text"
           value={newMember}
           onChange={(e) => setNewMember(e.target.value)}
           placeholder="Nama anggota baru"
-          className={styles.input}
+          className="border px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
-        <button onClick={addMember} className={styles.addButton}>
+        <button
+          onClick={addMember}
+          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+        >
           Tambah
         </button>
       </div>
-      <ul className={styles.memberList}>
+      <ul className="space-y-3">
         {members.map((member) => (
-          <li key={member.id} className={styles.memberItem}>
+          <li
+            key={member.id}
+            className="flex justify-between items-center p-2 bg-gray-100 rounded shadow"
+          >
             <span>{member.name}</span>
             <button
               onClick={() => removeMember(member.id)}
-              className={styles.deleteButton}
+              className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600"
             >
               Hapus
             </button>
