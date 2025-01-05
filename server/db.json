@@ -1,57 +1,49 @@
 {
   "members": [
     {
-      "name": "Andi",
-      "id": "1"
+      "id": "76001",
+      "name": "Andiarto"
     },
     {
-      "id": "2",
+      "id": "76002",
       "name": "Budi"
     },
     {
-      "id": "0051",
+      "id": "76003",
+      "name": "Ridho"
+    },
+    {
+      "id": "76004",
       "name": "Rangga"
     },
     {
-      "id": "07a8",
-      "name": "Santo"
+      "id": "76005",
+      "name": "Seno"
     },
     {
-      "id": "6ba5",
-      "name": "Reno"
-    },
-    {
-      "name": "Setno",
-      "id": "b900"
-    },
-    {
-      "id": "8bd0",
+      "id": "76006",
       "name": "Zaki"
     },
     {
-      "id": "e95c",
+      "id": "76007",
+      "name": "Reno"
+    },
+    {
+      "id": "76008",
       "name": "Setya"
     },
     {
-      "id": "d14a",
-      "name": "Risky"
+      "id": "76009",
+      "name": "Budi"
     },
     {
-      "id": "d526",
-      "name": "Agung"
-    },
-    {
-      "id": "5bcc",
-      "name": "Sanad"
-    },
-    {
-      "id": "707b",
-      "name": "Ridho"
+      "id": "76010",
+      "name": "Randi"
     }
   ],
   "schedule": [
     {
-      "id": "d199",
+      "id": "03dd",
       "day": 1,
       "month": "Januari",
       "floors": [
@@ -65,7 +57,7 @@
         },
         {
           "floor": "2",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "3",
@@ -83,7 +75,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -100,7 +92,7 @@
       ]
     },
     {
-      "id": "3b56",
+      "id": "45d4",
       "day": 2,
       "month": "Januari",
       "floors": [
@@ -110,7 +102,7 @@
         },
         {
           "floor": "1B",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "2",
@@ -149,13 +141,13 @@
       ]
     },
     {
-      "id": "fd85",
+      "id": "3b42",
       "day": 3,
       "month": "Januari",
       "floors": [
         {
           "floor": "1A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "1B",
@@ -181,7 +173,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -198,7 +190,7 @@
       ]
     },
     {
-      "id": "8c15",
+      "id": "bf81",
       "day": 4,
       "month": "Januari",
       "floors": [
@@ -247,7 +239,7 @@
       ]
     },
     {
-      "id": "1ede",
+      "id": "df60",
       "day": 5,
       "month": "Januari",
       "floors": [
@@ -279,7 +271,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -296,7 +288,7 @@
       ]
     },
     {
-      "id": "4871",
+      "id": "9aca",
       "day": 6,
       "month": "Januari",
       "floors": [
@@ -345,7 +337,7 @@
       ]
     },
     {
-      "id": "ce1b",
+      "id": "55b2",
       "day": 7,
       "month": "Januari",
       "floors": [
@@ -377,7 +369,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -394,7 +386,7 @@
       ]
     },
     {
-      "id": "273c",
+      "id": "d9f4",
       "day": 8,
       "month": "Januari",
       "floors": [
@@ -443,7 +435,7 @@
       ]
     },
     {
-      "id": "ed4a",
+      "id": "66eb",
       "day": 9,
       "month": "Januari",
       "floors": [
@@ -475,7 +467,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -492,7 +484,7 @@
       ]
     },
     {
-      "id": "1179",
+      "id": "a07e",
       "day": 10,
       "month": "Januari",
       "floors": [
@@ -541,7 +533,7 @@
       ]
     },
     {
-      "id": "a248",
+      "id": "2d0a",
       "day": 11,
       "month": "Januari",
       "floors": [
@@ -573,7 +565,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -590,7 +582,7 @@
       ]
     },
     {
-      "id": "2b43",
+      "id": "0a95",
       "day": 12,
       "month": "Januari",
       "floors": [
@@ -608,7 +600,7 @@
         },
         {
           "floor": "3",
-          "member": "Rangga"
+          "member": "Lingga"
         }
       ],
       "wc": [
@@ -639,7 +631,7 @@
       ]
     },
     {
-      "id": "3d6b",
+      "id": "a426",
       "day": 13,
       "month": "Januari",
       "floors": [
@@ -653,7 +645,7 @@
         },
         {
           "floor": "2",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "3",
@@ -671,7 +663,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -688,7 +680,7 @@
       ]
     },
     {
-      "id": "a80f",
+      "id": "c68e",
       "day": 14,
       "month": "Januari",
       "floors": [
@@ -698,7 +690,7 @@
         },
         {
           "floor": "1B",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "2",
@@ -737,13 +729,13 @@
       ]
     },
     {
-      "id": "9214",
+      "id": "78f0",
       "day": 15,
       "month": "Januari",
       "floors": [
         {
           "floor": "1A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "1B",
@@ -769,7 +761,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -786,7 +778,7 @@
       ]
     },
     {
-      "id": "c7ce",
+      "id": "2336",
       "day": 16,
       "month": "Januari",
       "floors": [
@@ -835,7 +827,7 @@
       ]
     },
     {
-      "id": "ad9a",
+      "id": "2c82",
       "day": 17,
       "month": "Januari",
       "floors": [
@@ -867,7 +859,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -884,7 +876,7 @@
       ]
     },
     {
-      "id": "af82",
+      "id": "3fea",
       "day": 18,
       "month": "Januari",
       "floors": [
@@ -933,7 +925,7 @@
       ]
     },
     {
-      "id": "baad",
+      "id": "4fbe",
       "day": 19,
       "month": "Januari",
       "floors": [
@@ -965,7 +957,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -982,7 +974,7 @@
       ]
     },
     {
-      "id": "6099",
+      "id": "271a",
       "day": 20,
       "month": "Januari",
       "floors": [
@@ -1031,7 +1023,7 @@
       ]
     },
     {
-      "id": "d4ff",
+      "id": "374c",
       "day": 21,
       "month": "Januari",
       "floors": [
@@ -1063,7 +1055,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -1080,7 +1072,7 @@
       ]
     },
     {
-      "id": "a31e",
+      "id": "38af",
       "day": 22,
       "month": "Januari",
       "floors": [
@@ -1129,7 +1121,7 @@
       ]
     },
     {
-      "id": "8345",
+      "id": "96fd",
       "day": 23,
       "month": "Januari",
       "floors": [
@@ -1161,7 +1153,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -1178,7 +1170,7 @@
       ]
     },
     {
-      "id": "5d52",
+      "id": "669e",
       "day": 24,
       "month": "Januari",
       "floors": [
@@ -1196,7 +1188,7 @@
         },
         {
           "floor": "3",
-          "member": "Rangga"
+          "member": "Lingga"
         }
       ],
       "wc": [
@@ -1227,7 +1219,7 @@
       ]
     },
     {
-      "id": "8d9a",
+      "id": "e2b4",
       "day": 25,
       "month": "Januari",
       "floors": [
@@ -1241,7 +1233,7 @@
         },
         {
           "floor": "2",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "3",
@@ -1259,7 +1251,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -1276,7 +1268,7 @@
       ]
     },
     {
-      "id": "c17f",
+      "id": "328b",
       "day": 26,
       "month": "Januari",
       "floors": [
@@ -1286,7 +1278,7 @@
         },
         {
           "floor": "1B",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "2",
@@ -1325,13 +1317,13 @@
       ]
     },
     {
-      "id": "c54c",
+      "id": "a05c",
       "day": 27,
       "month": "Januari",
       "floors": [
         {
           "floor": "1A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "floor": "1B",
@@ -1357,7 +1349,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -1374,7 +1366,7 @@
       ]
     },
     {
-      "id": "3b02",
+      "id": "9500",
       "day": 28,
       "month": "Januari",
       "floors": [
@@ -1423,7 +1415,7 @@
       ]
     },
     {
-      "id": "cc65",
+      "id": "3d34",
       "day": 29,
       "month": "Januari",
       "floors": [
@@ -1455,7 +1447,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
@@ -1472,7 +1464,7 @@
       ]
     },
     {
-      "id": "cdbd",
+      "id": "1caf",
       "day": 30,
       "month": "Januari",
       "floors": [
@@ -1521,7 +1513,7 @@
       ]
     },
     {
-      "id": "186d",
+      "id": "9876",
       "day": 31,
       "month": "Januari",
       "floors": [
@@ -1553,7 +1545,7 @@
         },
         {
           "wc": "2A",
-          "member": "Rangga"
+          "member": "Lingga"
         },
         {
           "wc": "2B",
