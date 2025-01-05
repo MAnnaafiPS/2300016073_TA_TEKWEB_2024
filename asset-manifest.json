@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6220a5e1.css",
-    "main.js": "/static/js/main.c0b58fc6.js",
-    "static/js/563.8b98b538.chunk.js": "/static/js/563.8b98b538.chunk.js",
-    "index.html": "/index.html",
-    "main.6220a5e1.css.map": "/static/css/main.6220a5e1.css.map",
-    "main.c0b58fc6.js.map": "/static/js/main.c0b58fc6.js.map",
-    "563.8b98b538.chunk.js.map": "/static/js/563.8b98b538.chunk.js.map"
+    "main.css": "/2300016073_TA_TEKWEB_2024/static/css/main.98d9aedc.css",
+    "main.js": "/2300016073_TA_TEKWEB_2024/static/js/main.ff673b99.js",
+    "static/js/563.8b98b538.chunk.js": "/2300016073_TA_TEKWEB_2024/static/js/563.8b98b538.chunk.js",
+    "index.html": "/2300016073_TA_TEKWEB_2024/index.html",
+    "main.98d9aedc.css.map": "/2300016073_TA_TEKWEB_2024/static/css/main.98d9aedc.css.map",
+    "main.ff673b99.js.map": "/2300016073_TA_TEKWEB_2024/static/js/main.ff673b99.js.map",
+    "563.8b98b538.chunk.js.map": "/2300016073_TA_TEKWEB_2024/static/js/563.8b98b538.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6220a5e1.css",
-    "static/js/main.c0b58fc6.js"
+    "static/css/main.98d9aedc.css",
+    "static/js/main.ff673b99.js"
   ]
 }
